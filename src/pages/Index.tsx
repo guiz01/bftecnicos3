@@ -11,6 +11,7 @@ import { Skeleton } from "@/components/ui/skeleton";
 import Pagination from "@/components/pagination";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
+import GTranslateWrapper from "@/components/GTranslateWrapper";
 
 interface Tecnico {
   id: string;
@@ -116,6 +117,7 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-background text-foreground">
+      <GTranslateWrapper />
       {/* Header */}
       <Header onScrollToTecnicos={scrollToTecnicos} />
 
@@ -398,7 +400,7 @@ const Index = () => {
               size="lg" 
               className="border-white text-white hover:bg-white hover:text-primary" 
               style={{ backgroundColor: 'hsl(0deg 0% 12.16%)' }}
-              onClick={() => window.open('https://fredyvinagre.com/comprar-equipamento/', '_blank')}
+              onClick={() => window.open('https://fredyvinagre.com/equipamentos', '_blank')}
             >
               Quero ser um terapeuta
             </Button>

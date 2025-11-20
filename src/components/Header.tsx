@@ -49,7 +49,7 @@ const Header = ({ onScrollToTecnicos }: HeaderProps) => {
             </button>
           </div>
           <div className="hidden md:flex items-center space-x-4">
-            <Button variant="outline" onClick={() => window.open('https://fredyvinagre.com/comprar-equipamento/', '_blank')}>Quero ser um terapeuta</Button>
+            <Button variant="outline" onClick={() => window.open('https://fredyvinagre.com/equipamentos', '_blank')}>Quero ser um terapeuta</Button>
             <Button variant="outline" onClick={() => navigate('/fredy-vinagre')}>
               Quem é Fredy Vinagre
             </Button>

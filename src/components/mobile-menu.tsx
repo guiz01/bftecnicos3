@@ -14,7 +14,7 @@ const MobileMenu = ({ onNavigate, onScrollToTecnicos }: MobileMenuProps) => {
 
   const menuItems = [
     { label: "Encontrar profissionais", action: onScrollToTecnicos },
-    { label: "Quero ser um terapeuta", action: () => window.open('https://fredyvinagre.com/comprar-equipamento/', '_blank') },
+    { label: "Quero ser um terapeuta", action: () => window.open('https://fredyvinagre.com/equipamentos', '_blank') },
     { label: "Quem é Fredy Vinagre", action: () => onNavigate('/fredy-vinagre') },
   ];
 
